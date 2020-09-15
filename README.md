@@ -13,7 +13,7 @@ development and deep learning.
 ## PROJECTS  
 ### Flash Chat  
 – A chat application made using Flutter as the front end and Firebase as the back end.  
-### Songbook  
+### Songbook [in progress] 
 – A songbook app made using Flutter and native Android framework with SQL database as the back end.  
 ### CryptoTracker  
 – A live crypto currency tracker app made using flutter with REST API integration.  
