@@ -1,8 +1,8 @@
 # FLUTTER DEVELOPER
 
 ## ABOUT  
-I am good at designing, coding, and development. I have experience designing  
-and developing both Android and IOS apps. I am currently learning web  
+I am good at designing, coding, and development. I have experience designing
+and developing both Android and IOS apps. I am currently learning web
 development and deep learning.  
 
 ## SKILLS & ABILITIES  
