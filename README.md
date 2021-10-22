@@ -1,4 +1,4 @@
-# FLUTTER DEVELOPER
+### Microsoft Learn Student Ambassador | Intel Student Ambassador | GDSC App Lead | Flutter Developer
 
 ## ABOUT  
 I am a technology enthusiast and loves building applications that could solve real-world problems. I am currently a Computer Science and Engineering sophomore. I was selected as Intel Student Ambassador and Microsoft Learn Student Ambassador. I am also a part of Google Developer Student Club in my college.
