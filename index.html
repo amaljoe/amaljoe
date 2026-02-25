@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amal Joe R S — AI Engineer</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a0a0c'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='17' font-weight='bold' text-anchor='middle'%3E%3Ctspan fill='white'%3EA%3C/tspan%3E%3Ctspan fill='%23c4f04d'%3EJ%3C/tspan%3E%3C/text%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a0a0c'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='17' font-weight='bold' text-anchor='middle'%3E%3Ctspan fill='white'%3EA%3C/tspan%3E%3Ctspan fill='%23c4f04d'%3EJ%3C/tspan%3E%3C/text%3E%3C/svg%3E">
   <link
     href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap"
     rel="stylesheet">
@@ -567,13 +568,28 @@
     }
 
     /* Achievements */
+    .achievements-group+.achievements-group {
+      margin-top: 32px;
+    }
+
+    .achievements-label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 16px;
+    }
+
     .achievements {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
       gap: 16px;
+      justify-content: center;
     }
 
     .achievement {
+      flex: 0 1 280px;
       padding: 24px;
       background: var(--surface);
       border: 1px solid var(--border);
@@ -762,10 +778,11 @@
     </a>
 
     <ul class="nav-links">
+      <li><a href="#education">Education</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
+      <li><a href="#achievements">Achievements & PORs</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -1209,29 +1226,53 @@
   <section>
     <div class="section-header">
       <span class="section-num">05</span>
-      <h2 class="section-title">Achievements</h2>
+      <h2 class="section-title">Achievements & Position of Responsibilities</h2>
       <div class="section-line"></div>
     </div>
-    <div class="achievements">
-      <div class="achievement">
-        <div class="achievement-icon">🏆</div>
-        <div class="achievement-text"><strong>Selected as Applied Scientist Intern</strong> at Amazon (2025)</div>
+    <div class="achievements-group">
+      <h3 class="achievements-label">Achievements</h3>
+      <div class="achievements">
+        <div class="achievement">
+          <div class="achievement-icon">🏆</div>
+          <div class="achievement-text"><strong>Selected as Applied Scientist Intern</strong> at Amazon (2025)</div>
+        </div>
+        <div class="achievement">
+          <div class="achievement-icon">🥇</div>
+          <div class="achievement-text"><strong>Proficiency Award</strong> — Department Topper, BTech (2022)</div>
+        </div>
+        <div class="achievement">
+          <div class="achievement-icon">⭐</div>
+          <div class="achievement-text"><strong>Best Performing Student Award</strong>, BTech (2023)</div>
+        </div>
+        <div class="achievement">
+          <div class="achievement-icon">🏅</div>
+          <div class="achievement-text"><strong>Baselian Award Nomination</strong> — Overall Best Student, BTech</div>
+        </div>
+        <div class="achievement">
+          <div class="achievement-icon">🚀</div>
+          <div class="achievement-text"><strong>Intel Student Ambassador</strong> & Microsoft Learn Student Ambassador
+          </div>
+        </div>
       </div>
-      <div class="achievement">
-        <div class="achievement-icon">🥇</div>
-        <div class="achievement-text"><strong>Proficiency Award</strong> — Department Topper, BTech (2022)</div>
-      </div>
-      <div class="achievement">
-        <div class="achievement-icon">⭐</div>
-        <div class="achievement-text"><strong>Best Performing Student Award</strong>, BTech (2023)</div>
-      </div>
-      <div class="achievement">
-        <div class="achievement-icon">🏅</div>
-        <div class="achievement-text"><strong>Baselian Award Nomination</strong> — Overall Best Student, BTech</div>
-      </div>
-      <div class="achievement">
-        <div class="achievement-icon">🚀</div>
-        <div class="achievement-text"><strong>Intel Student Ambassador</strong> & Microsoft Learn Student Ambassador
+    </div>
+    <div class="achievements-group">
+      <h3 class="achievements-label">Position of Responsibilities</h3>
+      <div class="achievements">
+        <div class="achievement">
+          <div class="achievement-icon">🎓</div>
+          <div class="achievement-text"><strong>Department Representative</strong>, CSE (BTech)</div>
+        </div>
+        <div class="achievement">
+          <div class="achievement-icon">🎉</div>
+          <div class="achievement-text"><strong>Technical Head of Crossroads</strong> — Cultural Fest (BTech)</div>
+        </div>
+        <div class="achievement">
+          <div class="achievement-icon">💡</div>
+          <div class="achievement-text"><strong>General Convenor of Hash</strong> — Tech Fest (BTech)</div>
+        </div>
+        <div class="achievement">
+          <div class="achievement-icon">📋</div>
+          <div class="achievement-text"><strong>Class Representative</strong> — 3rd Year (BTech)</div>
         </div>
       </div>
     </div>
@@ -1250,7 +1291,7 @@
   </section>
 
   <footer>
-    <p>© 2026 Amal Joe R S — Built with purpose.</p>
+    <p>© 2026 Amal Joe R S</p>
   </footer>
 
   <!-- Scroll animation observer -->
