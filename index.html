@@ -86,6 +86,10 @@
       letter-spacing: -0.02em;
     }
 
+    .nav-logo-link:hover .nav-logo span {
+      color: var(--accent);
+    }
+
     .nav-logo span {
       color: var(--accent);
     }
@@ -750,7 +754,12 @@
 
   <!-- Navigation -->
   <nav>
-    <div class="nav-logo">amal<span>.</span></div>
+    <a href="#" class="nav-logo-link">
+      <div class="nav-logo">
+        Amal <span>Joe</span>
+      </div>
+    </a>
+
     <ul class="nav-links">
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -799,7 +808,8 @@
         <div class="timeline-company">Financial Reporting & Agentic AI</div>
         <div class="timeline-desc">Working with a company that helps MNCs file annual financial reports globally.
           Integrating <strong>agentic AI</strong> into existing workflows to automate iXBRL tagging and
-          <strong>fine-tuning custom models</strong> for in-house use cases.</div>
+          <strong>fine-tuning custom models</strong> for in-house use cases.
+        </div>
       </div>
       <div class="timeline-item">
         <div class="timeline-date">May 2025 — Aug 2025</div>
@@ -1061,6 +1071,8 @@
       <div class="project-card">
         <div class="project-top">
           <span class="project-type">App</span>
+          <a href="https://github.com/amaljoe/crossroads_2023_website" target="_blank" class="project-link"
+            title="View on GitHub">↗</a>
         </div>
         <div class="project-name">Crossroads '23 — Ticketing System</div>
         <div class="project-desc">Built the cultural fest website and an offline automation system to streamline
