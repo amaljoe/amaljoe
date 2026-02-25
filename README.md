@@ -1,1 +1,1 @@
-I am a Masters student at IIT Bombay specializing in the field of artificial intelligence and machine learning. I also have over 2 years of software development experience working with Frontend technologies.
+I'm Amal Joe R S — an AI engineer specializing in LLMs, multimodal models, and reinforcement learning. Currently finishing my M.Tech at IIT Bombay with research at IBM and collaborations with Meta and BharatGen.
