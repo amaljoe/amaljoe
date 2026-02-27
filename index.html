@@ -924,6 +924,38 @@
         </div>
       </div>
 
+      <!-- Few-Shot Distillation -->
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-type research">Research</span>
+          <a href="https://github.com/amaljoe/few-shot-distillation" target="_blank" class="project-link"
+            title="View on GitHub">↗</a>
+        </div>
+        <div class="project-name">Few-Shot Distillation: ICL into Weights</div>
+        <div class="project-stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+          </svg>
+          +8.4pp over standard SFT; beats 8-shot teacher at zero-shot
+        </div>
+        <div class="project-desc">A drop-in replacement for standard SFT that brings the benefits of few-shot ICL into
+          fine-tuning. Uses the base model as a "free teacher": an 8-shot context produces rich token-level soft labels
+          that supervise a LoRA student alongside cross-entropy loss — capturing dark knowledge and task-specific
+          registers that one-hot labels discard. Evaluated on GSM8K across multiple model families, FSD consistently
+          outperformed standard SFT with gains up to +8.4 pp, with the Qwen3-8B variant surpassing its own 8-shot
+          teacher — all at zero-shot inference speeds.</div>
+        <div class="project-tags">
+          <span>Knowledge Distillation</span>
+          <span>In-Context Learning</span>
+          <span>Fine-tuning</span>
+          <span>LoRA</span>
+          <span>Qwen3</span>
+          <span>PyTorch</span>
+          <span>GSM8K</span>
+        </div>
+      </div>
+
+
       <!-- RLVR -->
       <div class="project-card">
         <div class="project-top">
@@ -945,33 +977,6 @@
           <span>VLM</span>
           <span>PyTorch</span>
           <span>Code Generation</span>
-        </div>
-      </div>
-
-      <!-- Few-Shot Distillation -->
-      <div class="project-card">
-        <div class="project-top">
-          <span class="project-type research">Research</span>
-          <a href="https://github.com/amaljoe/few-shot-distillation" target="_blank" class="project-link"
-            title="View on GitHub">↗</a>
-        </div>
-        <div class="project-name">Few-Shot Distillation: ICL into Weights</div>
-        <div class="project-stat">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-          </svg>
-          +16.6pp over 8-shot teacher at zero-shot
-        </div>
-        <div class="project-desc">Distills few-shot in-context learning into model weights via layer-wise hidden-state
-          supervision. A frozen 8-shot teacher provides activation targets across all 28 layers; a LoRA student learns
-          to match those representations — achieving few-shot accuracy without any context at inference. Tested on
-          Qwen3-1.7B / GSM8K with full ablations (lambda sweep, KL vs layer-wise, checkpoint curves).</div>
-        <div class="project-tags">
-          <span>Knowledge Distillation</span>
-          <span>LoRA</span>
-          <span>Qwen3</span>
-          <span>PyTorch</span>
-          <span>GSM8K</span>
         </div>
       </div>
 
